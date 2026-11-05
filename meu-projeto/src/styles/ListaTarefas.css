@@ -1,0 +1,68 @@
+.lista-container{
+    margin-top: 25px;
+}
+
+.filtros{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.filtros button{
+    padding: 9px 15px;
+    border:none;
+    border-radius:6px;
+    background: #e8e8ef;
+    cursor: pointer;
+}
+
+.filtros button.ativo{
+    background: #5b4bdb;
+    color: white;
+}
+
+.lista-tarefas{
+    list-style: none;
+}
+
+.tarefa{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px;
+    margin-bottom: 10px;
+    background: #f7f7fb;
+    border-radius: 8px;
+}
+
+.tarefa span {
+    flex: 1;
+    overflow-wrap: anywhere;
+}
+
+.tarefa input{
+    cursor:pointer;
+}
+
+.concluida{
+    text-decoration: line-through;
+    color:#999;
+}
+
+.btn-excluir{
+    background: #ffe5e5;
+    color: #d93636;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.btn-excluir:hover{
+    background: #ffcccc;
+}
+
+.mensagem-vazia{
+    text-align:center;
+    color: #888;
+    padding: 20px;
+}

@@ -1,0 +1,74 @@
+.formulario{
+    margin-bottom: 25px;
+}
+
+.formulario h2{
+    font-size: 18px;
+    color: #444;
+}
+
+.campo-adicionar,
+.campo-pesquisa {
+    display:flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.formulario input{
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    outline: none;
+}
+
+.formulario input:focus {
+    border-color: #5b4bdb;
+}
+
+.formulario button{
+    border: none;
+    padding: 12px 16px;
+    border-radius: 7px;
+    cursor:pointer;
+}
+
+.btn-adicionar{
+    background: #5b4bdb;
+    color: white;
+}
+
+.btn-limpar{
+    background: #e8e8ef;
+    color: #444;
+}
+
+.formulario button:hover{
+    opacity: 0.85;
+}
+
+@media(max-width: 600px){
+    .container{
+        width: 95%;
+        margin: 20px auto;
+        padding: 18px;
+    }
+    .cabecalho h1{
+        font-size: 24px;
+    }
+
+    .campo-adicionar,
+    .campo-pesquisa{
+        flex-wrap: wrap;
+    }
+
+    .campo-adicionar input,
+    .campo-pesquisa input{
+        width: 100%;
+    }
+
+    .filtros{
+        flex-wrap: wrap;
+    }
+}
